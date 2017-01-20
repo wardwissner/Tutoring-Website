@@ -1,0 +1,60 @@
+.header h1{
+  color:red;
+}
+.header ul { list-style: none;
+}
+.header li{
+  display: inline-block;
+   background: yellow;
+    border: 3px solid #73AD21;   
+}
+.header a{
+  color:red;
+}
+
+.header  {
+  background: url(https://media4.giphy.com/media/AXorq76Tg3Vte/200.gif#2) center center;
+  max-height:400px;
+  height:100%;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 767px }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {992px}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 1200px}
+.main {
+  background: url(https://media1.giphy.com/media/8kKk3C8ib3vSo/200w.gif#101)center center;
+   max-height:800px;
+   height: 100%;
+ }
+ .main .row{
+  margin-top: 40px;
+ }
+  
+  .main img {
+  max-height:100px;
+  height:100%;
+  max-width: 100px;
+  width: 100%;
+  background-color: yellow;
+  display:inline-block;
+  border: 3px solid #73AD21;
+    }
+.footer {
+  margin-top: 140px;
+  background-color: black;
+  height: 400px;
+}
+.footer  {
+  border: 3px solid #73AD21;
+  color: white;
+}
+.footer p{
+  text-align: left;
+}
